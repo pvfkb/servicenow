@@ -1,7 +1,9 @@
 servicenow
 ==========
 
-snowbound.py is a python based script which creates tickets from the events that are found for a specified query.
+snowbound.py is a python based script which creates tickets from Boundary events that are found for a specified query. It leverages the Boundary Events API to do this. 
+
+
 
 It uses snowbound.cfg to capture Boundary and ServiceNow URLs, credentials and settings.
 

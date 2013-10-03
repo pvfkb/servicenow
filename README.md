@@ -6,7 +6,7 @@ snowbound.py is a python based script which creates tickets from Boundary events
 It leverages the Boundary Events API:
 https://app.boundary.com/docs/events_api
 
-And ServiceNow REST API:
+And ServiceNow Web Services API:
 http://wiki.servicenow.com/index.php?title=JSON_Web_Service
 
 It uses a configuration file (snowbound.cfg) to capture Boundary and ServiceNow URLs, credentials and settings. This is also where the event query can be entered. The example cfg file contained in this repo contains a query for events with Critical severity that do not have a tag for "ticketed".
